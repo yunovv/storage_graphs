@@ -1,0 +1,23 @@
+usage: create_3Par_graphs_0.1.py [-h] [-st1 ST1] [-st2 ST2] [-iter ITER]
+
+Produces multiple variants of 3Par utilization/overprovisioning graphs 1,2 using input xlsx tables
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -st1 ST1    Excel sheet for current data
+  -st2 ST2    Excel sheet for comparison
+  -iter ITER  Number of iterations (increasing labels distance each iteration), default: 1
+
+
+
+
+
+do not specify args for interactive mode
+
+
+При запуске находит поля:
+System Name
+X%
+Y%
+
+ячейки под ними принимает в качестве вводных данных
